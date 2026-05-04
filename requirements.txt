@@ -1,0 +1,19 @@
+# Dependências principais
+torch>=2.1.0
+numpy==1.24.0
+opencv-python>=4.8.0
+typer>=0.9.0
+pillow>=10.0.0
+imageio>=2.31.1
+tqdm>=4.66.1
+
+# Dependências adicionais para o backend
+av>=11.0.0
+langchain>=0.0.300
+sentence-transformers>=2.2.2
+pyyaml==5.1
+
+# Bibliotecas instaláveis via repositório Git
+# Recomendado rodar manualmente:
+# pip install 'git+https://github.com/facebookresearch/detectron2.git'
+# pip install 'git+https://github.com/hugozanini/magic-animate.git'

@@ -1,0 +1,27 @@
+# Ambientes Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+ENV/
+
+# Arquivos e diretórios gerados/temporários
+temp_code.py
+*.mp4
+*.jpg
+*.png
+dump.pkl
+outputs/
+
+# Pastas de pesos e bibliotecas externas
+pretrained_models/
+detectron2/
+magic-animate/
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+.DS_Store
+*.ipynb_checkpoints/
